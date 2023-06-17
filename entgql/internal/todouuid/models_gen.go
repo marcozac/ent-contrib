@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todouuid/ent"
+	"github.com/marcozac/ent-contrib/entgql"
+	"github.com/marcozac/ent-contrib/entgql/internal/todouuid/ent"
 	"github.com/google/uuid"
 )
 

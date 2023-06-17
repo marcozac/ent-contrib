@@ -19,15 +19,13 @@ import (
 	"log"
 	"path/filepath"
 
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
+	"github.com/marcozac/ent-contrib/entproto"
 )
 
 func main() {
-	var (
-		schemaPath = flag.String("path", "", "path to schema directory")
-	)
+	schemaPath := flag.String("path", "", "path to schema directory")
 	flag.Parse()
 	if *schemaPath == "" {
 		log.Fatal("entproto: must specify schema path. use entproto -path ./ent/schema")

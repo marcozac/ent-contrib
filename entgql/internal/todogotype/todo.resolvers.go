@@ -21,7 +21,7 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent"
+	"github.com/marcozac/ent-contrib/entgql/internal/todogotype/ent"
 )
 
 func (r *categoryResolver) TodosCount(ctx context.Context, obj *ent.Category) (*int, error) {

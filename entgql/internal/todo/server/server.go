@@ -4,7 +4,7 @@
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
-//     http://www.apache.org/licenses/LICENSE-2.0
+//	http://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -17,17 +17,17 @@ import (
 	"context"
 	"net/http"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todo"
-	"entgo.io/contrib/entgql/internal/todo/ent"
-	"entgo.io/contrib/entgql/internal/todo/ent/migrate"
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/handler/debug"
 	"github.com/99designs/gqlgen/graphql/playground"
 	"github.com/alecthomas/kong"
+	"github.com/marcozac/ent-contrib/entgql"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/migrate"
 	"go.uber.org/zap"
 
-	_ "entgo.io/contrib/entgql/internal/todo/ent/runtime"
+	_ "github.com/marcozac/ent-contrib/entgql/internal/todo/ent/runtime"
 	_ "github.com/mattn/go-sqlite3"
 )
 

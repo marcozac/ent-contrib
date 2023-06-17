@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/messagewithints"
+	"github.com/marcozac/ent-contrib/entproto/internal/entprototest/ent/messagewithints"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

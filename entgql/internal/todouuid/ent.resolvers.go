@@ -21,11 +21,11 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql"
-	ent1 "entgo.io/contrib/entgql/internal/todo/ent"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todouuid/ent"
 	"github.com/google/uuid"
+	"github.com/marcozac/ent-contrib/entgql"
+	ent1 "github.com/marcozac/ent-contrib/entgql/internal/todo/ent"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/todo"
+	"github.com/marcozac/ent-contrib/entgql/internal/todouuid/ent"
 )
 
 func (r *categoryResolver) Types(ctx context.Context, obj *ent.Category) (*CategoryTypes, error) {
@@ -209,16 +209,18 @@ func (r *Resolver) UpdateUserInput() UpdateUserInputResolver { return &updateUse
 // UserWhereInput returns UserWhereInputResolver implementation.
 func (r *Resolver) UserWhereInput() UserWhereInputResolver { return &userWhereInputResolver{r} }
 
-type categoryResolver struct{ *Resolver }
-type organizationResolver struct{ *Resolver }
-type queryResolver struct{ *Resolver }
-type todoResolver struct{ *Resolver }
-type userResolver struct{ *Resolver }
-type createCategoryInputResolver struct{ *Resolver }
-type createTodoInputResolver struct{ *Resolver }
-type createUserInputResolver struct{ *Resolver }
-type todoWhereInputResolver struct{ *Resolver }
-type updateCategoryInputResolver struct{ *Resolver }
-type updateTodoInputResolver struct{ *Resolver }
-type updateUserInputResolver struct{ *Resolver }
-type userWhereInputResolver struct{ *Resolver }
+type (
+	categoryResolver            struct{ *Resolver }
+	organizationResolver        struct{ *Resolver }
+	queryResolver               struct{ *Resolver }
+	todoResolver                struct{ *Resolver }
+	userResolver                struct{ *Resolver }
+	createCategoryInputResolver struct{ *Resolver }
+	createTodoInputResolver     struct{ *Resolver }
+	createUserInputResolver     struct{ *Resolver }
+	todoWhereInputResolver      struct{ *Resolver }
+	updateCategoryInputResolver struct{ *Resolver }
+	updateTodoInputResolver     struct{ *Resolver }
+	updateUserInputResolver     struct{ *Resolver }
+	userWhereInputResolver      struct{ *Resolver }
+)

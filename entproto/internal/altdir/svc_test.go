@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"entgo.io/contrib/entproto/internal/altdir/ent/enttest"
-	"entgo.io/contrib/entproto/internal/altdir/ent/v1/api/entpb"
+	"github.com/marcozac/ent-contrib/entproto/internal/altdir/ent/enttest"
+	"github.com/marcozac/ent-contrib/entproto/internal/altdir/ent/v1/api/entpb"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"
 )

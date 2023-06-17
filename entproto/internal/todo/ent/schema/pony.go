@@ -15,10 +15,10 @@
 package schema
 
 import (
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/field"
+	"github.com/marcozac/ent-contrib/entproto"
 )
 
 // Pony is the schema of the Pony entity. It is used to verify the pluralization of the entity name

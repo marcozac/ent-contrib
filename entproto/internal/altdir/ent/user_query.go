@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entproto/internal/altdir/ent/predicate"
-	"entgo.io/contrib/entproto/internal/altdir/ent/user"
+	"github.com/marcozac/ent-contrib/entproto/internal/altdir/ent/predicate"
+	"github.com/marcozac/ent-contrib/entproto/internal/altdir/ent/user"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"entgo.io/contrib/entoas/internal/cycle/predicate"
-	"entgo.io/contrib/entoas/internal/cycle/user"
+	"github.com/marcozac/ent-contrib/entoas/internal/cycle/predicate"
+	"github.com/marcozac/ent-contrib/entoas/internal/cycle/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

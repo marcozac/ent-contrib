@@ -17,11 +17,11 @@ package schema
 import (
 	"time"
 
-	"entgo.io/contrib/entgql"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
+	"github.com/marcozac/ent-contrib/entgql"
 )
 
 // Friendship holds the edge schema definition of the Friendship relationship.

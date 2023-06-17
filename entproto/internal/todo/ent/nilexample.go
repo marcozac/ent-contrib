@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/nilexample"
+	"github.com/marcozac/ent-contrib/entproto/internal/todo/ent/nilexample"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

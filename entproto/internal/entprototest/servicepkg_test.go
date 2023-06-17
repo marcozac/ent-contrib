@@ -38,7 +38,7 @@ func (suite *ServicePkgTestSuite) SetupSuite() {
 func TestServicePkgSuite(t *testing.T) {
 	suite.Run(t, &ServicePkgTestSuite{
 		schema:    "../todo/ent/schema",
-		pkg:       "entgo.io/contrib/entproto/internal/entprototest/db",
+		pkg:       "github.com/marcozac/ent-contrib/entproto/internal/entprototest/db",
 		protoFile: "./db/proto/entpb/entpb.proto",
 	})
 }

@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/contrib/entproto/internal/altdir/ent/migrate"
+	"github.com/marcozac/ent-contrib/entproto/internal/altdir/ent/migrate"
 	"entgo.io/ent"
 
-	"entgo.io/contrib/entproto/internal/altdir/ent/user"
+	"github.com/marcozac/ent-contrib/entproto/internal/altdir/ent/user"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 )

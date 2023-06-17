@@ -3,7 +3,7 @@
 package attachment
 
 import (
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/predicate"
+	"github.com/marcozac/ent-contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 )
 

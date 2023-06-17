@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/user"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"

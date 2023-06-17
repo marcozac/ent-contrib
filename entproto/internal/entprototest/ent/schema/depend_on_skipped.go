@@ -20,7 +20,7 @@ import (
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
 
-	"entgo.io/contrib/entproto"
+	"github.com/marcozac/ent-contrib/entproto"
 )
 
 type DependsOnSkipped struct {

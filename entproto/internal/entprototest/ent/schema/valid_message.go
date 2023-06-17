@@ -15,11 +15,11 @@
 package schema
 
 import (
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
+	"github.com/marcozac/ent-contrib/entproto"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/contrib/schemast/internal/loadtest/ent/migrate"
+	"github.com/marcozac/ent-contrib/schemast/internal/loadtest/ent/migrate"
 	"entgo.io/ent"
 
-	"entgo.io/contrib/schemast/internal/loadtest/ent/message"
+	"github.com/marcozac/ent-contrib/schemast/internal/loadtest/ent/message"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 )

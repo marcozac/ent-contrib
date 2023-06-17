@@ -21,8 +21,8 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todo/ent/workspace"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/predicate"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/workspace"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

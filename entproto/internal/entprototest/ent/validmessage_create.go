@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/validmessage"
+	"github.com/marcozac/ent-contrib/entproto/internal/entprototest/ent/validmessage"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"

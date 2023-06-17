@@ -3,7 +3,7 @@
 package pony
 
 import (
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
+	"github.com/marcozac/ent-contrib/entproto/internal/todo/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 )
 

@@ -15,10 +15,10 @@
 package schema
 
 import (
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/field"
+	"github.com/marcozac/ent-contrib/entproto"
 )
 
 // EnumWithConflictingValue holds the schema definition for the EnumWithConflictingValue entity.

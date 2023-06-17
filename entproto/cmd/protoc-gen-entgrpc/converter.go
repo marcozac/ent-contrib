@@ -20,17 +20,15 @@ import (
 	"reflect"
 	"strings"
 
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent/entc/gen"
 	"entgo.io/ent/schema/field"
 	"github.com/jhump/protoreflect/desc"
+	"github.com/marcozac/ent-contrib/entproto"
 	"google.golang.org/protobuf/compiler/protogen"
 	dpb "google.golang.org/protobuf/types/descriptorpb"
 )
 
-var (
-	binaryMarshallerUnmarshallerType = reflect.TypeOf((*BinaryMarshallerUnmarshaller)(nil)).Elem()
-)
+var binaryMarshallerUnmarshallerType = reflect.TypeOf((*BinaryMarshallerUnmarshaller)(nil)).Elem()
 
 type BinaryMarshallerUnmarshaller interface {
 	encoding.BinaryMarshaler
@@ -106,7 +104,7 @@ func (g *serviceGenerator) newConverter(fld *entproto.FieldMappingDescriptor) (*
 	case efld.Type.Numeric():
 		out.ToEntConversion = efld.Type.String()
 	case efld.IsTime():
-		out.ToEntConstructor = protogen.GoImportPath("entgo.io/contrib/entproto/runtime").Ident("ExtractTime")
+		out.ToEntConstructor = protogen.GoImportPath("github.com/marcozac/ent-contrib/entproto/runtime").Ident("ExtractTime")
 	case efld.IsEnum():
 		enumName := fld.PbFieldDescriptor.GetEnumType().GetName()
 		method := fmt.Sprintf("toEnt%s_%s", g.EntType.Name, enumName)

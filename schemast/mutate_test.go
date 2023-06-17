@@ -17,12 +17,12 @@ package schemast
 import (
 	"testing"
 
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
 	"entgo.io/ent/schema/index"
+	"github.com/marcozac/ent-contrib/entproto"
 	"github.com/stretchr/testify/require"
 )
 
@@ -84,9 +84,7 @@ func WithType(e ent.Edge, typeName string) ent.Edge {
 	return e
 }
 
-type placeholder struct {
-}
+type placeholder struct{}
 
 func (placeholder) Type() {
-
 }

@@ -15,9 +15,9 @@
 package schema
 
 import (
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema/uintgql"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
+	"github.com/marcozac/ent-contrib/entgql/internal/todogotype/ent/schema/uintgql"
 )
 
 // Pet holds the schema definition for the Pet entity.

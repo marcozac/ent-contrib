@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/contrib/entoas/internal/cycle/migrate"
+	"github.com/marcozac/ent-contrib/entoas/internal/cycle/migrate"
 	"entgo.io/ent"
 
-	"entgo.io/contrib/entoas/internal/cycle/user"
+	"github.com/marcozac/ent-contrib/entoas/internal/cycle/user"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

@@ -5,8 +5,8 @@ package ent
 import (
 	"context"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/messagewithenum"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
+	"github.com/marcozac/ent-contrib/entproto/internal/entprototest/ent/messagewithenum"
+	"github.com/marcozac/ent-contrib/entproto/internal/entprototest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

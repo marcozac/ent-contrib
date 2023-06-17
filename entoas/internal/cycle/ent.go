@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"sync"
 
-	"entgo.io/contrib/entoas/internal/cycle/user"
+	"github.com/marcozac/ent-contrib/entoas/internal/cycle/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entoas/internal/simple"
+	"github.com/marcozac/ent-contrib/entoas/internal/simple"
 )
 
 // The CategoryFunc type is an adapter to allow the use of ordinary

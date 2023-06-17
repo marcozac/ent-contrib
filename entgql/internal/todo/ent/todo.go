@@ -22,10 +22,10 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/category"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/customstruct"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todo/ent/verysecret"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/category"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/schema/customstruct"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/todo"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/verysecret"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

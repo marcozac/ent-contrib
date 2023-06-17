@@ -3,7 +3,7 @@
 package withnilfields
 
 import (
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/predicate"
+	"github.com/marcozac/ent-contrib/schemast/internal/mutatetest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 )
 

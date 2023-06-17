@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/duplicatenumbermessage"
+	"github.com/marcozac/ent-contrib/entproto/internal/entprototest/ent/duplicatenumbermessage"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

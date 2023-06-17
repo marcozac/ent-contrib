@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
+	"github.com/marcozac/ent-contrib/entproto"
 	"github.com/stretchr/testify/require"
 )
 

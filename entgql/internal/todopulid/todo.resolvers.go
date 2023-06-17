@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/todo"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent/todo"
 )
 
 func (r *categoryResolver) TodosCount(ctx context.Context, obj *ent.Category) (*int, error) {

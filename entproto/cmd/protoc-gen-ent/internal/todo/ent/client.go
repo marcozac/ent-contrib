@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/migrate"
+	"github.com/marcozac/ent-contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/migrate"
 	"entgo.io/ent"
 
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/attachment"
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/file"
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/task"
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/user"
+	"github.com/marcozac/ent-contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/attachment"
+	"github.com/marcozac/ent-contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/file"
+	"github.com/marcozac/ent-contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/task"
+	"github.com/marcozac/ent-contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/user"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 )

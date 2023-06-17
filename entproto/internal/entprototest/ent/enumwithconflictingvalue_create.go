@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/enumwithconflictingvalue"
+	"github.com/marcozac/ent-contrib/entproto/internal/entprototest/ent/enumwithconflictingvalue"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

@@ -21,7 +21,7 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/onetomany"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/onetomany"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

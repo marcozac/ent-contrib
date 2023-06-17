@@ -5,8 +5,8 @@ package simple
 import (
 	"context"
 
-	"entgo.io/contrib/entoas/internal/simple/predicate"
-	"entgo.io/contrib/entoas/internal/simple/user"
+	"github.com/marcozac/ent-contrib/entoas/internal/simple/predicate"
+	"github.com/marcozac/ent-contrib/entoas/internal/simple/user"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

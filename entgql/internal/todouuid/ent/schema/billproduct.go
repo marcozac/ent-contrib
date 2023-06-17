@@ -15,10 +15,10 @@
 package schema
 
 import (
-	"entgo.io/contrib/entgql/internal/todo/ent/schema"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/schema"
 )
 
 // BillProduct holds the schema definition for the BillProduct entity.

@@ -6,8 +6,8 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/skipedgeexample"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/user"
+	"github.com/marcozac/ent-contrib/entproto/internal/entprototest/ent/skipedgeexample"
+	"github.com/marcozac/ent-contrib/entproto/internal/entprototest/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

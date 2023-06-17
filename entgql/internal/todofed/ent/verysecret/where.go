@@ -17,7 +17,7 @@
 package verysecret
 
 import (
-	"entgo.io/contrib/entgql/internal/todofed/ent/predicate"
+	"github.com/marcozac/ent-contrib/entgql/internal/todofed/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 )
 

@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/category"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/marcozac/ent-contrib/entgql/internal/todogotype/ent/category"
+	"github.com/marcozac/ent-contrib/entgql/internal/todogotype/ent/schema/bigintgql"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

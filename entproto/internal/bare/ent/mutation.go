@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"entgo.io/contrib/entproto/internal/bare/ent/predicate"
-	"entgo.io/contrib/entproto/internal/bare/ent/user"
+	"github.com/marcozac/ent-contrib/entproto/internal/bare/ent/predicate"
+	"github.com/marcozac/ent-contrib/entproto/internal/bare/ent/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/schemast/internal/printtest/ent/message"
+	"github.com/marcozac/ent-contrib/schemast/internal/printtest/ent/message"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

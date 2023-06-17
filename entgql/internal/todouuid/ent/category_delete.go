@@ -19,8 +19,8 @@ package ent
 import (
 	"context"
 
-	"entgo.io/contrib/entgql/internal/todouuid/ent/category"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/predicate"
+	"github.com/marcozac/ent-contrib/entgql/internal/todouuid/ent/category"
+	"github.com/marcozac/ent-contrib/entgql/internal/todouuid/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

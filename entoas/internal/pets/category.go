@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entoas/internal/pets/category"
+	"github.com/marcozac/ent-contrib/entoas/internal/pets/category"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

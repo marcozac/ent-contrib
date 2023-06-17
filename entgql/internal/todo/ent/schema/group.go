@@ -15,12 +15,12 @@
 package schema
 
 import (
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/annotation"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
+	"github.com/marcozac/ent-contrib/entgql"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/schema/annotation"
 )
 
 // Group holds the schema definition for the Group entity.

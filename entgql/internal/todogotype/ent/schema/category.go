@@ -18,10 +18,10 @@ import (
 	"math/big"
 	"math/rand"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/schema"
+	"github.com/marcozac/ent-contrib/entgql/internal/todogotype/ent/schema/bigintgql"
 )
 
 // Category holds the schema definition for the Category entity.

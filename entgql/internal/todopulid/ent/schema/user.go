@@ -15,10 +15,10 @@
 package schema
 
 import (
-	"entgo.io/contrib/entgql/internal/todo/ent/schema"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/edge"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/schema"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent/schema/pulid"
 )
 
 // User defines the user type schema.

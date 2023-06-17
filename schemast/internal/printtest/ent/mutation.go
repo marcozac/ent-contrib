@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sync"
 
-	"entgo.io/contrib/schemast/internal/printtest/ent/predicate"
+	"github.com/marcozac/ent-contrib/schemast/internal/printtest/ent/predicate"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

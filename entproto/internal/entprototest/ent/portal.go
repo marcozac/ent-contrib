@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/category"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/portal"
+	"github.com/marcozac/ent-contrib/entproto/internal/entprototest/ent/category"
+	"github.com/marcozac/ent-contrib/entproto/internal/entprototest/ent/portal"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

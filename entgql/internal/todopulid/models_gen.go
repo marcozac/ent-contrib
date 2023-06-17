@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todopulid/ent"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/marcozac/ent-contrib/entgql"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent/schema/pulid"
 )
 
 type NamedNode interface {

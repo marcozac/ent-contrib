@@ -15,9 +15,9 @@
 package schema
 
 import (
-	"entgo.io/contrib/entgql/internal/todo/ent/schema"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
 	"entgo.io/ent"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/schema"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent/schema/pulid"
 )
 
 // Group defines the group type schema.

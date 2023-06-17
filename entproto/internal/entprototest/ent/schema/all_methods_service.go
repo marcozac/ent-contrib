@@ -15,9 +15,9 @@
 package schema
 
 import (
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
+	"github.com/marcozac/ent-contrib/entproto"
 )
 
 // AllMethodsService holds the schema definition for the AllMethodsService entity.

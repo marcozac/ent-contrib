@@ -17,8 +17,8 @@
 package user
 
 import (
-	"entgo.io/contrib/entgql/internal/todopulid/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent/predicate"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent/schema/pulid"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"github.com/google/uuid"

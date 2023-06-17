@@ -20,9 +20,9 @@ import (
 	"strings"
 	"testing"
 
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
+	"github.com/marcozac/ent-contrib/entproto"
 	"github.com/stretchr/testify/require"
 )
 
@@ -44,7 +44,7 @@ func TestGenerate(t *testing.T) {
 func TestGenerateOptionSkipGenFile(t *testing.T) {
 	tgt := t.TempDir()
 
-	entprotoExt,err := entproto.NewExtension(entproto.SkipGenFile())
+	entprotoExt, err := entproto.NewExtension(entproto.SkipGenFile())
 	require.NoError(t, err)
 
 	err = entc.Generate(

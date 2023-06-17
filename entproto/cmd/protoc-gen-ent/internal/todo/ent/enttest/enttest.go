@@ -5,11 +5,11 @@ package enttest
 import (
 	"context"
 
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent"
+	"github.com/marcozac/ent-contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent"
 	// required by schema hooks.
-	_ "entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/runtime"
+	_ "github.com/marcozac/ent-contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/runtime"
 
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/migrate"
+	"github.com/marcozac/ent-contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/migrate"
 	"entgo.io/ent/dialect/sql/schema"
 )
 

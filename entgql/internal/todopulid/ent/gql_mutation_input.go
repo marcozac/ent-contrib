@@ -19,10 +19,10 @@ package ent
 import (
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/category"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/todo"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent/category"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent/todo"
 	"github.com/google/uuid"
 )
 

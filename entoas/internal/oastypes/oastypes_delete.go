@@ -5,8 +5,8 @@ package oastypes
 import (
 	"context"
 
-	"entgo.io/contrib/entoas/internal/oastypes/oastypes"
-	"entgo.io/contrib/entoas/internal/oastypes/predicate"
+	"github.com/marcozac/ent-contrib/entoas/internal/oastypes/oastypes"
+	"github.com/marcozac/ent-contrib/entoas/internal/oastypes/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

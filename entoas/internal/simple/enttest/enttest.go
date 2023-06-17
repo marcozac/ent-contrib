@@ -5,11 +5,11 @@ package enttest
 import (
 	"context"
 
-	"entgo.io/contrib/entoas/internal/simple"
+	"github.com/marcozac/ent-contrib/entoas/internal/simple"
 	// required by schema hooks.
-	_ "entgo.io/contrib/entoas/internal/simple/runtime"
+	_ "github.com/marcozac/ent-contrib/entoas/internal/simple/runtime"
 
-	"entgo.io/contrib/entoas/internal/simple/migrate"
+	"github.com/marcozac/ent-contrib/entoas/internal/simple/migrate"
 	"entgo.io/ent/dialect/sql/schema"
 )
 

@@ -16,7 +16,7 @@
 
 package runtime
 
-// The schema-stitching logic is generated in entgo.io/contrib/entgql/internal/todofed/ent/runtime.go
+// The schema-stitching logic is generated in github.com/marcozac/ent-contrib/entgql/internal/todofed/ent/runtime.go
 
 const (
 	Version = "v0.12.2"                                         // Version of ent codegen.

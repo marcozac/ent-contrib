@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/bare/ent"
+	"github.com/marcozac/ent-contrib/entproto/internal/bare/ent"
 )
 
 // The UserFunc type is an adapter to allow the use of ordinary

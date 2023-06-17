@@ -17,8 +17,8 @@ package schema
 import (
 	"entgo.io/ent"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/schema"
+	"github.com/marcozac/ent-contrib/entgql/internal/todopulid/ent/schema/pulid"
 )
 
 // Category holds the schema definition for the Category entity.

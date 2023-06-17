@@ -23,9 +23,9 @@ import (
 	"strings"
 	"text/template"
 
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
+	"github.com/marcozac/ent-contrib/entproto"
 	"google.golang.org/protobuf/compiler/protogen"
 )
 

@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"entgo.io/contrib/entproto/internal/todo/ent"
-	"entgo.io/contrib/entproto/internal/todo/ent/enttest"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
 	"github.com/google/uuid"
+	"github.com/marcozac/ent-contrib/entproto/internal/todo/ent"
+	"github.com/marcozac/ent-contrib/entproto/internal/todo/ent/enttest"
+	"github.com/marcozac/ent-contrib/entproto/internal/todo/ent/user"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

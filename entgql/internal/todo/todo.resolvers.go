@@ -21,8 +21,8 @@ import (
 	"context"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/todo"
 )
 
 func (r *categoryResolver) TodosCount(ctx context.Context, obj *ent.Category) (*int, error) {

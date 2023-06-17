@@ -3,7 +3,7 @@
 package user
 
 import (
-	"entgo.io/contrib/schemast/internal/printtest/ent/predicate"
+	"github.com/marcozac/ent-contrib/schemast/internal/printtest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 )
 

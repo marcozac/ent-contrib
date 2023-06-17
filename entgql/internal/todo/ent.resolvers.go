@@ -20,8 +20,8 @@ package todo
 import (
 	"context"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todo/ent"
+	"github.com/marcozac/ent-contrib/entgql"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent"
 )
 
 func (r *queryResolver) Node(ctx context.Context, id int) (ent.Noder, error) {
@@ -90,8 +90,10 @@ func (r *Resolver) CreateCategoryInput() CreateCategoryInputResolver {
 // TodoWhereInput returns TodoWhereInputResolver implementation.
 func (r *Resolver) TodoWhereInput() TodoWhereInputResolver { return &todoWhereInputResolver{r} }
 
-type categoryResolver struct{ *Resolver }
-type queryResolver struct{ *Resolver }
-type todoResolver struct{ *Resolver }
-type createCategoryInputResolver struct{ *Resolver }
-type todoWhereInputResolver struct{ *Resolver }
+type (
+	categoryResolver            struct{ *Resolver }
+	queryResolver               struct{ *Resolver }
+	todoResolver                struct{ *Resolver }
+	createCategoryInputResolver struct{ *Resolver }
+	todoWhereInputResolver      struct{ *Resolver }
+)

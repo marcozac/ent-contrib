@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/enttest"
-	"entgo.io/contrib/entproto/internal/todo/ent/multiwordschema"
+	"github.com/marcozac/ent-contrib/entproto/internal/todo/ent/enttest"
+	"github.com/marcozac/ent-contrib/entproto/internal/todo/ent/multiwordschema"
 	"github.com/stretchr/testify/require"
 )
 

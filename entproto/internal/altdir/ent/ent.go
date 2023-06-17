@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"sync"
 
-	"entgo.io/contrib/entproto/internal/altdir/ent/user"
+	"github.com/marcozac/ent-contrib/entproto/internal/altdir/ent/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

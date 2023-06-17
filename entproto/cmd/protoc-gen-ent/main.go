@@ -18,8 +18,8 @@ import (
 	"flag"
 	"fmt"
 
-	entopts "entgo.io/contrib/entproto/cmd/protoc-gen-ent/options/ent"
-	"entgo.io/contrib/schemast"
+	entopts "github.com/marcozac/ent-contrib/entproto/cmd/protoc-gen-ent/options/ent"
+	"github.com/marcozac/ent-contrib/schemast"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"

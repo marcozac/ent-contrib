@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/customstruct"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/category"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/todo"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/verysecret"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/schema/customstruct"
+	"github.com/marcozac/ent-contrib/entgql/internal/todogotype/ent/category"
+	"github.com/marcozac/ent-contrib/entgql/internal/todogotype/ent/schema/bigintgql"
+	"github.com/marcozac/ent-contrib/entgql/internal/todogotype/ent/todo"
+	"github.com/marcozac/ent-contrib/entgql/internal/todogotype/ent/verysecret"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

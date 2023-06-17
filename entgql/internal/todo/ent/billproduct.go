@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/billproduct"
+	"github.com/marcozac/ent-contrib/entgql/internal/todo/ent/billproduct"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

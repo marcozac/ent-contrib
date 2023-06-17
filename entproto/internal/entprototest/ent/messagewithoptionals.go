@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/messagewithoptionals"
+	"github.com/marcozac/ent-contrib/entproto/internal/entprototest/ent/messagewithoptionals"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"

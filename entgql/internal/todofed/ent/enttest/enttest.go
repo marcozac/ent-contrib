@@ -19,11 +19,11 @@ package enttest
 import (
 	"context"
 
-	"entgo.io/contrib/entgql/internal/todofed/ent"
+	"github.com/marcozac/ent-contrib/entgql/internal/todofed/ent"
 	// required by schema hooks.
-	_ "entgo.io/contrib/entgql/internal/todofed/ent/runtime"
+	_ "github.com/marcozac/ent-contrib/entgql/internal/todofed/ent/runtime"
 
-	"entgo.io/contrib/entgql/internal/todofed/ent/migrate"
+	"github.com/marcozac/ent-contrib/entgql/internal/todofed/ent/migrate"
 	"entgo.io/ent/dialect/sql/schema"
 )
 
