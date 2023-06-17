@@ -1,4 +1,4 @@
-module entgo.io/contrib
+module github.com/marcozac/ent-contrib
 
 go 1.18
 
